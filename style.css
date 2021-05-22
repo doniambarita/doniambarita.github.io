@@ -1,0 +1,21 @@
+section {
+  min-height: 420px;
+  font-family: "Eczar", serif;
+}
+.extra-jumbotron {
+  background-image: url(img/background.jpg);
+  background-position: left;
+  height: 610px;
+  padding: 85px 0px 0px 0px;
+  margin-bottom: -20px;
+}
+footer {
+  font-family: "Libre Franklin", sans-serif;
+  background-color: rgb(44, 44, 44);
+  height: 25px;
+  color: white;
+}
+.nav-item:hover {
+  /* ini efek buat jika di sorot logo sosmed nya dia akan bergerak ke atas sedikit */
+  margin: -2px 0px 0px 0px;
+}
