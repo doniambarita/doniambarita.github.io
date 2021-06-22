@@ -1,21 +1,32 @@
-section {
-  min-height: 420px;
-  font-family: "Eczar", serif;
+html {
+  position: relative;
+  min-height: 100%;
 }
-.extra-jumbotron {
-  background-image: url(img/background.jpg);
-  background-position: left;
-  height: 610px;
-  padding: 85px 0px 0px 0px;
-  margin-bottom: -20px;
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: rgb(235, 220, 220);
 }
-footer {
-  font-family: "Libre Franklin", sans-serif;
-  background-color: rgb(44, 44, 44);
-  height: 25px;
-  color: white;
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px; /* Vertically center the text there */
+  background-color: #0059ff7a;
 }
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+.footer > .container {
+  text-align: center;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .nav-item:hover {
-  /* ini efek buat jika di sorot logo sosmed nya dia akan bergerak ke atas sedikit */
   margin: -2px 0px 0px 0px;
 }
